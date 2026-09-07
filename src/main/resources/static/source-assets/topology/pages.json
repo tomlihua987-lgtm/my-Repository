@@ -1,0 +1,32 @@
+[
+  {
+    "file": "page1.svg",
+    "title": "万达总部逻辑互联",
+    "redrawn": true
+  },
+  {
+    "file": "page2.svg",
+    "title": "安监消防与 PTN",
+    "redrawn": true
+  },
+  {
+    "file": "page3.svg",
+    "title": "B3 楼层接入",
+    "redrawn": true
+  },
+  {
+    "file": "page4.svg",
+    "title": "备控核心互联",
+    "redrawn": true
+  },
+  {
+    "file": "page5.svg",
+    "title": "廊坊 SD-WAN",
+    "redrawn": true
+  },
+  {
+    "file": "page6.svg",
+    "title": "院线总部互联",
+    "redrawn": true
+  }
+]

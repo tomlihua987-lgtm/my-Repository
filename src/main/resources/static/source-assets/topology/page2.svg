@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="820" viewBox="0 0 1280 820" font-family="Microsoft YaHei,Segoe UI,sans-serif">
+<rect width="100%" height="100%" fill="#f4f7f9"/>
+<rect width="100%" height="72" fill="#12353a"/><text x="28" y="32" font-size="22" font-weight="700" fill="#fff">安监消防与 PTN</text><text x="28" y="54" font-size="13" fill="#b7d4d0">B2 慧云机房：安监交换机、光电转换、PTN 防火墙与路由器</text><text x="1252" y="42" text-anchor="end" font-size="12" fill="#8fb8b3">按 2026-05-28 逻辑互联图重绘 · 端口细节见设备卡片</text>
+<rect x="28" y="88" width="14" height="14" rx="3" fill="#e7f4f2" stroke="#147d75"/>
+<text x="48" y="100" font-size="12" fill="#526474">核心</text>
+<rect x="146" y="88" width="14" height="14" rx="3" fill="#fde8e8" stroke="#b42318"/>
+<text x="166" y="100" font-size="12" fill="#526474">防火墙</text>
+<rect x="264" y="88" width="14" height="14" rx="3" fill="#e7f3fb" stroke="#1d6f94"/>
+<text x="284" y="100" font-size="12" fill="#526474">交换机</text>
+<rect x="382" y="88" width="14" height="14" rx="3" fill="#fff2d8" stroke="#946200"/>
+<text x="402" y="100" font-size="12" fill="#526474">路由/CPE</text>
+<rect x="500" y="88" width="14" height="14" rx="3" fill="#e8eefc" stroke="#3553a0"/>
+<text x="520" y="100" font-size="12" fill="#526474">负载/AC</text>
+<rect x="618" y="88" width="14" height="14" rx="3" fill="#f3eef8" stroke="#6b4b8a"/>
+<text x="638" y="100" font-size="12" fill="#526474">无线/终端</text>
+<rect x="736" y="88" width="14" height="14" rx="3" fill="#e4f5ee" stroke="#17724f"/>
+<text x="756" y="100" font-size="12" fill="#526474">线路</text>
+<rect x="854" y="88" width="14" height="14" rx="3" fill="#edf2f5" stroke="#4a5d6c"/>
+<text x="874" y="100" font-size="12" fill="#526474">主机/业务</text>
+<g class="topology-node" data-node-id="n-520-140-BJ-ZB-CS-IRF" data-x="520" data-y="140" data-w="240" data-h="56">
+<rect x="520" y="140" width="240" height="56" rx="8" fill="#e7f4f2" stroke="#147d75" stroke-width="1.4"/>
+<rect x="520" y="140" width="6" height="56" rx="3" fill="#147d75"/>
+<text x="536" y="162" font-size="13" font-weight="700" fill="#17323a">BJ-ZB-CS-IRF</text>
+<text x="536" y="180" font-size="11" fill="#5b6c78">10.0.255.140</text>
+</g>
+<rect x="40" y="220" width="380" height="520" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="58" y="248" font-size="15" font-weight="700" fill="#147d75">安监消防</text><g class="topology-node" data-node-id="n-60-270-Anjian-Xiaofang-SW" data-x="60" data-y="270" data-w="340" data-h="52">
+<rect x="60" y="270" width="340" height="52" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="60" y="270" width="6" height="52" rx="3" fill="#b42318"/>
+<text x="76" y="292" font-size="13" font-weight="700" fill="#17323a">Anjian-Xiaofang-SW</text>
+<text x="76" y="310" font-size="11" fill="#5b6c78">10.0.16.254/24</text>
+</g><g class="topology-node" data-node-id="n-60-336-H3C-SW" data-x="60" data-y="336" data-w="340" data-h="52">
+<rect x="60" y="336" width="340" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="60" y="336" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="76" y="358" font-size="13" font-weight="700" fill="#17323a">H3C SW</text>
+<text x="76" y="376" font-size="11" fill="#5b6c78">只作为光转</text>
+</g><g class="topology-node" data-node-id="n-60-402-node" data-x="60" data-y="402" data-w="340" data-h="52">
+<rect x="60" y="402" width="340" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="60" y="402" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="76" y="430" font-size="13" font-weight="700" fill="#17323a">光电转换器</text>
+</g><g class="topology-node" data-node-id="n-60-468-node" data-x="60" data-y="468" data-w="340" data-h="52">
+<rect x="60" y="468" width="340" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="60" y="468" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="76" y="490" font-size="13" font-weight="700" fill="#17323a">电梯新闻交换机</text>
+<text x="76" y="508" font-size="11" fill="#5b6c78">192.168.1.99  NAT 10.0.16.253</text>
+</g><g class="topology-node" data-node-id="n-60-534-node" data-x="60" data-y="534" data-w="340" data-h="52">
+<rect x="60" y="534" width="340" height="52" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="60" y="534" width="6" height="52" rx="3" fill="#4a5d6c"/>
+<text x="76" y="556" font-size="13" font-weight="700" fill="#17323a">电梯新闻服务器</text>
+<text x="76" y="574" font-size="11" fill="#5b6c78">192.168.1.100  NAT 10.0.16.252</text>
+</g><g class="topology-node" data-node-id="n-60-600-10-0-16-1" data-x="60" data-y="600" data-w="340" data-h="52">
+<rect x="60" y="600" width="340" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="60" y="600" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="76" y="622" font-size="13" font-weight="700" fill="#17323a">网关 10.0.16.1</text>
+<text x="76" y="640" font-size="11" fill="#5b6c78">业务网段</text>
+</g>
+<rect x="450" y="220" width="780" height="520" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="468" y="248" font-size="15" font-weight="700" fill="#147d75">PTN 与慧云机房</text><g class="topology-node" data-node-id="n-470-270-BJ_PTN_SVR_SW_1" data-x="470" data-y="270" data-w="230" data-h="52">
+<rect x="470" y="270" width="230" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="470" y="270" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="486" y="298" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_SVR_SW_1</text>
+</g><g class="topology-node" data-node-id="n-720-270-BJ_PTN_SVR_SW_2" data-x="720" data-y="270" data-w="230" data-h="52">
+<rect x="720" y="270" width="230" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="720" y="270" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="736" y="298" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_SVR_SW_2</text>
+</g><g class="topology-node" data-node-id="n-970-270-node" data-x="970" data-y="270" data-w="230" data-h="52">
+<rect x="970" y="270" width="230" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="970" y="270" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="986" y="292" font-size="13" font-weight="700" fill="#17323a">银行</text>
+<text x="986" y="310" font-size="11" fill="#5b6c78">外联</text>
+</g><g class="topology-node" data-node-id="n-470-360-BJ_PTN_FW_1" data-x="470" data-y="360" data-w="350" data-h="56">
+<rect x="470" y="360" width="350" height="56" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="470" y="360" width="6" height="56" rx="3" fill="#b42318"/>
+<text x="486" y="382" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_FW_1</text>
+<text x="486" y="400" font-size="11" fill="#5b6c78">10.0.17.1</text>
+</g><g class="topology-node" data-node-id="n-850-360-BJ_PTN_FW_2" data-x="850" data-y="360" data-w="350" data-h="56">
+<rect x="850" y="360" width="350" height="56" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="850" y="360" width="6" height="56" rx="3" fill="#b42318"/>
+<text x="866" y="382" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_FW_2</text>
+<text x="866" y="400" font-size="11" fill="#5b6c78">192.168.1.90</text>
+</g><g class="topology-node" data-node-id="n-470-450-BJ_PTN_RT_SW_1" data-x="470" data-y="450" data-w="350" data-h="52">
+<rect x="470" y="450" width="350" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="470" y="450" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="486" y="478" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_RT_SW_1</text>
+</g><g class="topology-node" data-node-id="n-850-450-BJ_PTN_RT_SW_2" data-x="850" data-y="450" data-w="350" data-h="52">
+<rect x="850" y="450" width="350" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="850" y="450" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="866" y="478" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_RT_SW_2</text>
+</g><g class="topology-node" data-node-id="n-470-530-BJ_PTN_RT_1" data-x="470" data-y="530" data-w="350" data-h="56">
+<rect x="470" y="530" width="350" height="56" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="470" y="530" width="6" height="56" rx="3" fill="#946200"/>
+<text x="486" y="552" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_RT_1</text>
+<text x="486" y="570" font-size="11" fill="#5b6c78">10.0.17.3/24</text>
+</g><g class="topology-node" data-node-id="n-850-530-BJ_PTN_RT_2" data-x="850" data-y="530" data-w="350" data-h="56">
+<rect x="850" y="530" width="350" height="56" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="850" y="530" width="6" height="56" rx="3" fill="#946200"/>
+<text x="866" y="552" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_RT_2</text>
+<text x="866" y="570" font-size="11" fill="#5b6c78">10.0.17.4/24</text>
+</g><g class="topology-node" data-node-id="n-470-620-B-B2" data-x="470" data-y="620" data-w="730" data-h="52">
+<rect x="470" y="620" width="730" height="52" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="470" y="620" width="6" height="52" rx="3" fill="#4a5d6c"/>
+<text x="486" y="642" font-size="13" font-weight="700" fill="#17323a">B座B2层慧云机房</text>
+<text x="486" y="660" font-size="11" fill="#5b6c78">上联总部核心</text>
+</g>
+<path class="topology-link" data-x1="640" data-y1="196" data-x2="250" data-y2="270" d="M640,196 C445.0,196 445.0,270 250,270" fill="none" stroke="#147d75" stroke-width="1.6"/>
+<path class="topology-link" data-x1="640" data-y1="196" data-x2="820" data-y2="270" d="M640,196 C730.0,196 730.0,270 820,270" fill="none" stroke="#147d75" stroke-width="1.6"/>
+</svg>

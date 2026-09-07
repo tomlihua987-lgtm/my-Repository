@@ -1,0 +1,548 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1680" viewBox="0 0 1680 1680" font-family="Microsoft YaHei,Segoe UI,sans-serif">
+<rect width="100%" height="100%" fill="#f4f7f9"/>
+<rect width="100%" height="72" fill="#12353a"/><text x="28" y="32" font-size="22" font-weight="700" fill="#fff">万达总部逻辑互联</text><text x="28" y="54" font-size="13" fill="#b7d4d0">北京总部核心、互联网出口、办公接入、PTN、云专线和外联区</text><text x="1652" y="42" text-anchor="end" font-size="12" fill="#8fb8b3">按 2026-05-28 逻辑互联图重绘 · 端口细节见设备卡片</text>
+<rect x="28" y="88" width="14" height="14" rx="3" fill="#e7f4f2" stroke="#147d75"/>
+<text x="48" y="100" font-size="12" fill="#526474">核心</text>
+<rect x="146" y="88" width="14" height="14" rx="3" fill="#fde8e8" stroke="#b42318"/>
+<text x="166" y="100" font-size="12" fill="#526474">防火墙</text>
+<rect x="264" y="88" width="14" height="14" rx="3" fill="#e7f3fb" stroke="#1d6f94"/>
+<text x="284" y="100" font-size="12" fill="#526474">交换机</text>
+<rect x="382" y="88" width="14" height="14" rx="3" fill="#fff2d8" stroke="#946200"/>
+<text x="402" y="100" font-size="12" fill="#526474">路由/CPE</text>
+<rect x="500" y="88" width="14" height="14" rx="3" fill="#e8eefc" stroke="#3553a0"/>
+<text x="520" y="100" font-size="12" fill="#526474">负载/AC</text>
+<rect x="618" y="88" width="14" height="14" rx="3" fill="#f3eef8" stroke="#6b4b8a"/>
+<text x="638" y="100" font-size="12" fill="#526474">无线/终端</text>
+<rect x="736" y="88" width="14" height="14" rx="3" fill="#e4f5ee" stroke="#17724f"/>
+<text x="756" y="100" font-size="12" fill="#526474">线路</text>
+<rect x="854" y="88" width="14" height="14" rx="3" fill="#edf2f5" stroke="#4a5d6c"/>
+<text x="874" y="100" font-size="12" fill="#526474">主机/业务</text>
+<rect x="28" y="118" width="556" height="430" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="46" y="146" font-size="15" font-weight="700" fill="#147d75">互联网出口 / 外联</text><g class="topology-node" data-node-id="n-46-150-1G" data-x="46.0" data-y="150" data-w="237.0" data-h="52">
+<rect x="46.0" y="150" width="237.0" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="46.0" y="150" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="62.0" y="172" font-size="13" font-weight="700" fill="#17323a">联通 1G</text>
+<text x="62.0" y="190" font-size="11" fill="#5b6c78">互联网主出口</text>
+</g>
+<g class="topology-node" data-node-id="n-293-150-300M" data-x="293.0" data-y="150" data-w="237.0" data-h="52">
+<rect x="293.0" y="150" width="237.0" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="293.0" y="150" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="309.0" y="172" font-size="13" font-weight="700" fill="#17323a">联通 300M 宽带</text>
+<text x="309.0" y="190" font-size="11" fill="#5b6c78">备份出口</text>
+</g>
+<g class="topology-node" data-node-id="n-46-212-node" data-x="46.0" data-y="212" data-w="237.0" data-h="52">
+<rect x="46.0" y="212" width="237.0" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="46.0" y="212" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="62.0" y="240" font-size="13" font-weight="700" fill="#17323a">普惠专线</text>
+</g>
+<g class="topology-node" data-node-id="n-293-212-200M" data-x="293.0" data-y="212" data-w="237.0" data-h="52">
+<rect x="293.0" y="212" width="237.0" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="293.0" y="212" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="309.0" y="234" font-size="13" font-weight="700" fill="#17323a">丙晟-电信 200M</text>
+<text x="309.0" y="252" font-size="11" fill="#5b6c78">中航信后沙峪 B17557599</text>
+</g>
+<g class="topology-node" data-node-id="n-46-274-node" data-x="46.0" data-y="274" data-w="237.0" data-h="52">
+<rect x="46.0" y="274" width="237.0" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="46.0" y="274" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="62.0" y="296" font-size="13" font-weight="700" fill="#17323a">光子专线</text>
+<text x="62.0" y="314" font-size="11" fill="#5b6c78">总部 ⇌ 燕郊</text>
+</g>
+<g class="topology-node" data-node-id="n-293-274-300M-300M" data-x="293.0" data-y="274" data-w="237.0" data-h="52">
+<rect x="293.0" y="274" width="237.0" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="293.0" y="274" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="309.0" y="296" font-size="13" font-weight="700" fill="#17323a">移动 300M / 电信 300M</text>
+<text x="309.0" y="314" font-size="11" fill="#5b6c78">B4-EX92 / B5-EX92</text>
+</g><g class="topology-node" data-node-id="n-46-380-BJB2-R01_8U_CU-1" data-x="46.0" data-y="380" data-w="237.0" data-h="52">
+<rect x="46.0" y="380" width="237.0" height="52" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="46.0" y="380" width="6" height="52" rx="3" fill="#b42318"/>
+<text x="62.0" y="402" font-size="13" font-weight="700" fill="#17323a">BJB2-R01_8U_CU-1</text>
+<text x="62.0" y="420" font-size="11" fill="#5b6c78">联通出口路由器</text>
+</g>
+<g class="topology-node" data-node-id="n-293-380-BJB2-R01-23U-BK-CP18-FW1" data-x="293.0" data-y="380" data-w="237.0" data-h="52">
+<rect x="293.0" y="380" width="237.0" height="52" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="293.0" y="380" width="6" height="52" rx="3" fill="#b42318"/>
+<text x="309.0" y="402" font-size="13" font-weight="700" fill="#17323a">BJB2-R01-23U-BK-CP18-FW1</text>
+<text x="309.0" y="420" font-size="11" fill="#5b6c78">出口防火墙 HA</text>
+</g>
+<g class="topology-node" data-node-id="n-46-442-INTERNET-CT-AC-1" data-x="46.0" data-y="442" data-w="237.0" data-h="52">
+<rect x="46.0" y="442" width="237.0" height="52" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="46.0" y="442" width="6" height="52" rx="3" fill="#b42318"/>
+<text x="62.0" y="464" font-size="13" font-weight="700" fill="#17323a">INTERNET-CT-AC-1</text>
+<text x="62.0" y="482" font-size="11" fill="#5b6c78">BJB2-R01-18-19U</text>
+</g>
+<g class="topology-node" data-node-id="n-293-442-INTERNET-CT-AC-2" data-x="293.0" data-y="442" data-w="237.0" data-h="52">
+<rect x="293.0" y="442" width="237.0" height="52" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="293.0" y="442" width="6" height="52" rx="3" fill="#b42318"/>
+<text x="309.0" y="464" font-size="13" font-weight="700" fill="#17323a">INTERNET-CT-AC-2</text>
+<text x="309.0" y="482" font-size="11" fill="#5b6c78">BJB2-R01-15-16U</text>
+</g>
+<rect x="28" y="564" width="556" height="390" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="46" y="592" font-size="15" font-weight="700" fill="#147d75">外联银行专线</text><g class="topology-node" data-node-id="n-46-608-CM" data-x="46.0" data-y="608" data-w="237.0" data-h="36">
+<rect x="46.0" y="608" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="46.0" y="608" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="62.0" y="630" font-size="13" font-weight="700" fill="#17323a">工商银行 CM</text>
+<text x="62.0" y="648" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-293-608-CM" data-x="293.0" data-y="608" data-w="237.0" data-h="36">
+<rect x="293.0" y="608" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="293.0" y="608" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="309.0" y="630" font-size="13" font-weight="700" fill="#17323a">农业银行 CM</text>
+<text x="309.0" y="648" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-46-654-CM" data-x="46.0" data-y="654" data-w="237.0" data-h="36">
+<rect x="46.0" y="654" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="46.0" y="654" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="62.0" y="676" font-size="13" font-weight="700" fill="#17323a">中国银行 CM</text>
+<text x="62.0" y="694" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-293-654-CM" data-x="293.0" data-y="654" data-w="237.0" data-h="36">
+<rect x="293.0" y="654" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="293.0" y="654" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="309.0" y="676" font-size="13" font-weight="700" fill="#17323a">中信银行 CM</text>
+<text x="309.0" y="694" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-46-700-CU" data-x="46.0" data-y="700" data-w="237.0" data-h="36">
+<rect x="46.0" y="700" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="46.0" y="700" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="62.0" y="722" font-size="13" font-weight="700" fill="#17323a">建设银行 CU</text>
+<text x="62.0" y="740" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-293-700-CU-CT" data-x="293.0" data-y="700" data-w="237.0" data-h="36">
+<rect x="293.0" y="700" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="293.0" y="700" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="309.0" y="722" font-size="13" font-weight="700" fill="#17323a">招商银行 CU/CT</text>
+<text x="309.0" y="740" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-46-746-CU" data-x="46.0" data-y="746" data-w="237.0" data-h="36">
+<rect x="46.0" y="746" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="46.0" y="746" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="62.0" y="768" font-size="13" font-weight="700" fill="#17323a">浦发银行 CU</text>
+<text x="62.0" y="786" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-293-746-CU" data-x="293.0" data-y="746" data-w="237.0" data-h="36">
+<rect x="293.0" y="746" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="293.0" y="746" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="309.0" y="768" font-size="13" font-weight="700" fill="#17323a">邮储银行 CU</text>
+<text x="309.0" y="786" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-46-792-CU" data-x="46.0" data-y="792" data-w="237.0" data-h="36">
+<rect x="46.0" y="792" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="46.0" y="792" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="62.0" y="814" font-size="13" font-weight="700" fill="#17323a">民生银行 CU</text>
+<text x="62.0" y="832" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-293-792-CU" data-x="293.0" data-y="792" data-w="237.0" data-h="36">
+<rect x="293.0" y="792" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="293.0" y="792" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="309.0" y="814" font-size="13" font-weight="700" fill="#17323a">兴业银行 CU</text>
+<text x="309.0" y="832" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-46-838-CM-CU" data-x="46.0" data-y="838" data-w="237.0" data-h="36">
+<rect x="46.0" y="838" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="46.0" y="838" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="62.0" y="860" font-size="13" font-weight="700" fill="#17323a">广发银行 CM/CU</text>
+<text x="62.0" y="878" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-293-838-CU-CT" data-x="293.0" data-y="838" data-w="237.0" data-h="36">
+<rect x="293.0" y="838" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="293.0" y="838" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="309.0" y="860" font-size="13" font-weight="700" fill="#17323a">渤海银行 CU/CT</text>
+<text x="309.0" y="878" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-46-884-CT" data-x="46.0" data-y="884" data-w="237.0" data-h="36">
+<rect x="46.0" y="884" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="46.0" y="884" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="62.0" y="906" font-size="13" font-weight="700" fill="#17323a">金谷银行 内蒙古CT</text>
+<text x="62.0" y="924" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<g class="topology-node" data-node-id="n-293-884-CU" data-x="293.0" data-y="884" data-w="237.0" data-h="36">
+<rect x="293.0" y="884" width="237.0" height="36" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="293.0" y="884" width="6" height="36" rx="3" fill="#17724f"/>
+<text x="309.0" y="906" font-size="13" font-weight="700" fill="#17323a">长安支行 CU</text>
+<text x="309.0" y="924" font-size="11" fill="#5b6c78">银行专线</text>
+</g>
+<rect x="608" y="118" width="464" height="246" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="626" y="146" font-size="15" font-weight="700" fill="#147d75">总部核心</text><g class="topology-node" data-node-id="n-628-160-BJ-ZB-CS-IRF" data-x="628" data-y="160" data-w="424" data-h="64">
+<rect x="628" y="160" width="424" height="64" rx="8" fill="#e7f4f2" stroke="#147d75" stroke-width="1.4"/>
+<rect x="628" y="160" width="6" height="64" rx="3" fill="#147d75"/>
+<text x="644" y="182" font-size="13" font-weight="700" fill="#17323a">BJ-ZB-CS-IRF</text>
+<text x="644" y="200" font-size="11" fill="#5b6c78">10.0.255.140  ·  总部核心 IRF</text>
+</g><g class="topology-node" data-node-id="n-628-236-BJ-ZB-S6800-IRF" data-x="628" data-y="236" data-w="204" data-h="52">
+<rect x="628" y="236" width="204" height="52" rx="8" fill="#e7f4f2" stroke="#147d75" stroke-width="1.4"/>
+<rect x="628" y="236" width="6" height="52" rx="3" fill="#147d75"/>
+<text x="644" y="258" font-size="13" font-weight="700" fill="#17323a">BJ-ZB-S6800-IRF</text>
+<text x="644" y="276" font-size="11" fill="#5b6c78">核心汇聚</text>
+</g><g class="topology-node" data-node-id="n-848-236-BJ-B2-CR3" data-x="848" data-y="236" data-w="204" data-h="52">
+<rect x="848" y="236" width="204" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="848" y="236" width="6" height="52" rx="3" fill="#946200"/>
+<text x="864" y="258" font-size="13" font-weight="700" fill="#17323a">BJ-B2-CR3</text>
+<text x="864" y="276" font-size="11" fill="#5b6c78">10.1.250.2</text>
+</g><g class="topology-node" data-node-id="n-628-300-B4-EX92-300M" data-x="628" data-y="300" data-w="204" data-h="44">
+<rect x="628" y="300" width="204" height="44" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="628" y="300" width="6" height="44" rx="3" fill="#17724f"/>
+<text x="644" y="328" font-size="13" font-weight="700" fill="#17323a">B4-EX92 移动300M</text>
+</g><g class="topology-node" data-node-id="n-848-300-B5-EX92-300M" data-x="848" data-y="300" data-w="204" data-h="44">
+<rect x="848" y="300" width="204" height="44" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="848" y="300" width="6" height="44" rx="3" fill="#17724f"/>
+<text x="864" y="328" font-size="13" font-weight="700" fill="#17323a">B5-EX92 电信300M</text>
+</g>
+<path class="topology-link" data-x1="556" data-y1="280" data-x2="628" data-y2="192" d="M556,280 C592.0,280 592.0,192 628,192" fill="none" stroke="#147d75" stroke-width="1.6"/>
+<path class="topology-link" data-x1="840" data-y1="324" data-x2="840" data-y2="300" d="M840,324 C840.0,324 840.0,300 840,300" fill="none" stroke="#147d75" stroke-width="1.6"/>
+<rect x="1092" y="118" width="560" height="246" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="1110" y="146" font-size="15" font-weight="700" fill="#147d75">无线与语音</text><g class="topology-node" data-node-id="n-1112-160-WX5540E-1" data-x="1112" data-y="160" data-w="250" data-h="52">
+<rect x="1112" y="160" width="250" height="52" rx="8" fill="#e8eefc" stroke="#3553a0" stroke-width="1.4"/>
+<rect x="1112" y="160" width="6" height="52" rx="3" fill="#3553a0"/>
+<text x="1128" y="182" font-size="13" font-weight="700" fill="#17323a">WX5540E-1</text>
+<text x="1128" y="200" font-size="11" fill="#5b6c78">10.1.152.2</text>
+</g><g class="topology-node" data-node-id="n-1380-160-WX5540E-2" data-x="1380" data-y="160" data-w="250" data-h="52">
+<rect x="1380" y="160" width="250" height="52" rx="8" fill="#e8eefc" stroke="#3553a0" stroke-width="1.4"/>
+<rect x="1380" y="160" width="6" height="52" rx="3" fill="#3553a0"/>
+<text x="1396" y="182" font-size="13" font-weight="700" fill="#17323a">WX5540E-2</text>
+<text x="1396" y="200" font-size="11" fill="#5b6c78">10.1.152.3</text>
+</g><g class="topology-node" data-node-id="n-1112-226-IP-TEL-Console" data-x="1112" data-y="226" data-w="162" data-h="52">
+<rect x="1112" y="226" width="162" height="52" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="1112" y="226" width="6" height="52" rx="3" fill="#4a5d6c"/>
+<text x="1128" y="248" font-size="13" font-weight="700" fill="#17323a">IP-TEL-Console</text>
+<text x="1128" y="266" font-size="11" fill="#5b6c78">1 / 2</text>
+</g><g class="topology-node" data-node-id="n-1286-226-IP-TEL-Voice" data-x="1286" data-y="226" data-w="162" data-h="52">
+<rect x="1286" y="226" width="162" height="52" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="1286" y="226" width="6" height="52" rx="3" fill="#4a5d6c"/>
+<text x="1302" y="248" font-size="13" font-weight="700" fill="#17323a">IP-TEL-Voice</text>
+<text x="1302" y="266" font-size="11" fill="#5b6c78">1 / 2</text>
+</g><g class="topology-node" data-node-id="n-1460-226-ACS-1-ACS-2" data-x="1460" data-y="226" data-w="170" data-h="52">
+<rect x="1460" y="226" width="170" height="52" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="1460" y="226" width="6" height="52" rx="3" fill="#4a5d6c"/>
+<text x="1476" y="248" font-size="13" font-weight="700" fill="#17323a">ACS-1 / ACS-2</text>
+<text x="1476" y="266" font-size="11" fill="#5b6c78">认证</text>
+</g><g class="topology-node" data-node-id="n-1112-292-B-F3-F4-AP-B-8" data-x="1112" data-y="292" data-w="520" data-h="48">
+<rect x="1112" y="292" width="520" height="48" rx="8" fill="#f3eef8" stroke="#6b4b8a" stroke-width="1.4"/>
+<rect x="1112" y="292" width="6" height="48" rx="3" fill="#6b4b8a"/>
+<text x="1128" y="320" font-size="13" font-weight="700" fill="#17323a">B座各楼层无线网  ·  F3/F4 AP  ·  B座8层党建基地</text>
+</g>
+<path class="topology-link" data-x1="1072" data-y1="192" data-x2="1112" data-y2="186" d="M1072,192 C1092.0,192 1092.0,186 1112,186" fill="none" stroke="#3553a0" stroke-width="1.6"/>
+<rect x="608" y="380" width="464" height="360" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="626" y="408" font-size="15" font-weight="700" fill="#147d75">B座楼层有线接入</text><g class="topology-node" data-node-id="n-628-414-BJ_ZB_F8_HJ" data-x="628.0" data-y="414" data-w="199.0" data-h="40">
+<rect x="628.0" y="414" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="628.0" y="414" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="644.0" y="436" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F8_HJ</text>
+<text x="644.0" y="454" font-size="11" fill="#5b6c78">8层汇聚 / F8_POE</text>
+</g>
+<g class="topology-node" data-node-id="n-837-414-BJ_ZB_F8_3" data-x="837.0" data-y="414" data-w="199.0" data-h="40">
+<rect x="837.0" y="414" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="837.0" y="414" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="853.0" y="436" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F8_3</text>
+<text x="853.0" y="454" font-size="11" fill="#5b6c78">10.1.8.252</text>
+</g>
+<g class="topology-node" data-node-id="n-628-464-BJ_ZB_F8_DJJD" data-x="628.0" data-y="464" data-w="199.0" data-h="40">
+<rect x="628.0" y="464" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="628.0" y="464" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="644.0" y="486" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F8_DJJD</text>
+<text x="644.0" y="504" font-size="11" fill="#5b6c78">党建基地</text>
+</g>
+<g class="topology-node" data-node-id="n-837-464-BJ_ZB_F17_HJ" data-x="837.0" data-y="464" data-w="199.0" data-h="40">
+<rect x="837.0" y="464" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="837.0" y="464" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="853.0" y="486" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F17_HJ</text>
+<text x="853.0" y="504" font-size="11" fill="#5b6c78">已下架</text>
+</g>
+<g class="topology-node" data-node-id="n-628-514-BJ_ZB_F18_HJ" data-x="628.0" data-y="514" data-w="199.0" data-h="40">
+<rect x="628.0" y="514" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="628.0" y="514" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="644.0" y="536" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F18_HJ</text>
+<text x="644.0" y="554" font-size="11" fill="#5b6c78">已下架</text>
+</g>
+<g class="topology-node" data-node-id="n-837-514-BJ_ZB_F19_HJ" data-x="837.0" data-y="514" data-w="199.0" data-h="40">
+<rect x="837.0" y="514" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="837.0" y="514" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="853.0" y="536" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F19_HJ</text>
+<text x="853.0" y="554" font-size="11" fill="#5b6c78">F19_POE</text>
+</g>
+<g class="topology-node" data-node-id="n-628-564-BJ_ZB_F20_HJ" data-x="628.0" data-y="564" data-w="199.0" data-h="40">
+<rect x="628.0" y="564" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="628.0" y="564" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="644.0" y="586" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F20_HJ</text>
+<text x="644.0" y="604" font-size="11" fill="#5b6c78">F20_POE</text>
+</g>
+<g class="topology-node" data-node-id="n-837-564-BJ_ZB_F21_HJ" data-x="837.0" data-y="564" data-w="199.0" data-h="40">
+<rect x="837.0" y="564" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="837.0" y="564" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="853.0" y="586" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F21_HJ</text>
+<text x="853.0" y="604" font-size="11" fill="#5b6c78">F21_POE</text>
+</g>
+<g class="topology-node" data-node-id="n-628-614-BJ_ZB_F22_HJ" data-x="628.0" data-y="614" data-w="199.0" data-h="40">
+<rect x="628.0" y="614" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="628.0" y="614" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="644.0" y="636" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F22_HJ</text>
+<text x="644.0" y="654" font-size="11" fill="#5b6c78">F22_POE</text>
+</g>
+<g class="topology-node" data-node-id="n-837-614-BJ_ZB_F23_HJ" data-x="837.0" data-y="614" data-w="199.0" data-h="40">
+<rect x="837.0" y="614" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="837.0" y="614" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="853.0" y="636" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F23_HJ</text>
+<text x="853.0" y="654" font-size="11" fill="#5b6c78">F23_POE</text>
+</g>
+<g class="topology-node" data-node-id="n-628-664-BJ_ZB_F25_HJ" data-x="628.0" data-y="664" data-w="199.0" data-h="40">
+<rect x="628.0" y="664" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="628.0" y="664" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="644.0" y="686" font-size="13" font-weight="700" fill="#17323a">BJ_ZB_F25_HJ</text>
+<text x="644.0" y="704" font-size="11" fill="#5b6c78">F25_POE</text>
+</g>
+<g class="topology-node" data-node-id="n-837-664-B2_POE-B2-DC-POE" data-x="837.0" data-y="664" data-w="199.0" data-h="40">
+<rect x="837.0" y="664" width="199.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="837.0" y="664" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="853.0" y="686" font-size="13" font-weight="700" fill="#17323a">B2_POE / B2-DC-POE</text>
+<text x="853.0" y="704" font-size="11" fill="#5b6c78">B2 接入</text>
+</g>
+<path class="topology-link" data-x1="840" data-y1="364" data-x2="840" data-y2="380" d="M840,364 C840.0,364 840.0,380 840,380" fill="none" stroke="#1d6f94" stroke-width="1.6"/>
+<rect x="1092" y="380" width="560" height="360" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="1110" y="408" font-size="15" font-weight="700" fill="#147d75">12号楼 / 商管 / 物业</text><g class="topology-node" data-node-id="n-1112-414-12-15F-HJ" data-x="1112.0" data-y="414" data-w="237.0" data-h="40">
+<rect x="1112.0" y="414" width="237.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="1112.0" y="414" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="1128.0" y="436" font-size="13" font-weight="700" fill="#17323a">12#15F-HJ</text>
+<text x="1128.0" y="454" font-size="11" fill="#5b6c78">10.1.167.1</text>
+</g>
+<g class="topology-node" data-node-id="n-1359-414-12-15F-SW1-4" data-x="1359.0" data-y="414" data-w="237.0" data-h="40">
+<rect x="1359.0" y="414" width="237.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="1359.0" y="414" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="1375.0" y="436" font-size="13" font-weight="700" fill="#17323a">12#15F-SW1~4</text>
+<text x="1375.0" y="454" font-size="11" fill="#5b6c78">10.1.167.254~251</text>
+</g>
+<g class="topology-node" data-node-id="n-1112-464-12-26F-HJ-1" data-x="1112.0" data-y="464" data-w="237.0" data-h="40">
+<rect x="1112.0" y="464" width="237.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="1112.0" y="464" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="1128.0" y="486" font-size="13" font-weight="700" fill="#17323a">12#26F-HJ-1</text>
+<text x="1128.0" y="504" font-size="11" fill="#5b6c78">10.1.222.1</text>
+</g>
+<g class="topology-node" data-node-id="n-1359-464-12-15-26-27F-POE" data-x="1359.0" data-y="464" data-w="237.0" data-h="40">
+<rect x="1359.0" y="464" width="237.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="1359.0" y="464" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="1375.0" y="486" font-size="13" font-weight="700" fill="#17323a">12#15/26/27F POE</text>
+<text x="1375.0" y="504" font-size="11" fill="#5b6c78">10.1.190.244/239/242</text>
+</g>
+<g class="topology-node" data-node-id="n-1112-514-B-1" data-x="1112.0" data-y="514" data-w="237.0" data-h="40">
+<rect x="1112.0" y="514" width="237.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="1112.0" y="514" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="1128.0" y="536" font-size="13" font-weight="700" fill="#17323a">B座1层大堂</text>
+<text x="1128.0" y="554" font-size="11" fill="#5b6c78">BJ-ZB-F1-POE 10.1.109.254</text>
+</g>
+<g class="topology-node" data-node-id="n-1359-514-B-4" data-x="1359.0" data-y="514" data-w="237.0" data-h="40">
+<rect x="1359.0" y="514" width="237.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="1359.0" y="514" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="1375.0" y="542" font-size="13" font-weight="700" fill="#17323a">B座4层商管办公</text>
+</g>
+<g class="topology-node" data-node-id="n-1112-564-2-B1" data-x="1112.0" data-y="564" data-w="237.0" data-h="40">
+<rect x="1112.0" y="564" width="237.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="1112.0" y="564" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="1128.0" y="586" font-size="13" font-weight="700" fill="#17323a">2#B1 物业办公室</text>
+<text x="1128.0" y="604" font-size="11" fill="#5b6c78">2#B1-WUYE-SW</text>
+</g>
+<g class="topology-node" data-node-id="n-1359-564-BJ-F4-SW-1-4" data-x="1359.0" data-y="564" data-w="237.0" data-h="40">
+<rect x="1359.0" y="564" width="237.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="1359.0" y="564" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="1375.0" y="586" font-size="13" font-weight="700" fill="#17323a">BJ-F4-SW-1~4</text>
+<text x="1375.0" y="604" font-size="11" fill="#5b6c78">10.1.101.250~253</text>
+</g>
+<g class="topology-node" data-node-id="n-1112-614-BJ-SG-AS-1" data-x="1112.0" data-y="614" data-w="237.0" data-h="40">
+<rect x="1112.0" y="614" width="237.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="1112.0" y="614" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="1128.0" y="636" font-size="13" font-weight="700" fill="#17323a">BJ-SG-AS-1</text>
+<text x="1128.0" y="654" font-size="11" fill="#5b6c78">10.1.101.1 商管</text>
+</g>
+<g class="topology-node" data-node-id="n-1359-614-node" data-x="1359.0" data-y="614" data-w="237.0" data-h="40">
+<rect x="1359.0" y="614" width="237.0" height="40" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="1359.0" y="614" width="6" height="40" rx="3" fill="#1d6f94"/>
+<text x="1375.0" y="642" font-size="13" font-weight="700" fill="#17323a">酒仙桥商管机房</text>
+</g>
+<path class="topology-link" data-x1="1072" data-y1="420" data-x2="1112" data-y2="430" d="M1072,420 C1092.0,420 1092.0,430 1112,430" fill="none" stroke="#1d6f94" stroke-width="1.6"/>
+<rect x="28" y="970" width="556" height="300" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="46" y="998" font-size="15" font-weight="700" fill="#147d75">PTN 区</text><g class="topology-node" data-node-id="n-46-1008-BJ_PTN_FW_1" data-x="46.0" data-y="1008" data-w="237.0" data-h="40">
+<rect x="46.0" y="1008" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="46.0" y="1008" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="62.0" y="1030" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_FW_1</text>
+<text x="62.0" y="1048" font-size="11" fill="#5b6c78">10.0.17.1</text>
+</g>
+<g class="topology-node" data-node-id="n-293-1008-BJ_PTN_FW_2" data-x="293.0" data-y="1008" data-w="237.0" data-h="40">
+<rect x="293.0" y="1008" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="293.0" y="1008" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="309.0" y="1030" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_FW_2</text>
+<text x="309.0" y="1048" font-size="11" fill="#5b6c78">192.168.1.90</text>
+</g>
+<g class="topology-node" data-node-id="n-46-1058-BJ_PTN_RT_1" data-x="46.0" data-y="1058" data-w="237.0" data-h="40">
+<rect x="46.0" y="1058" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="46.0" y="1058" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="62.0" y="1080" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_RT_1</text>
+<text x="62.0" y="1098" font-size="11" fill="#5b6c78">10.0.17.3/24</text>
+</g>
+<g class="topology-node" data-node-id="n-293-1058-BJ_PTN_RT_2" data-x="293.0" data-y="1058" data-w="237.0" data-h="40">
+<rect x="293.0" y="1058" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="293.0" y="1058" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="309.0" y="1080" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_RT_2</text>
+<text x="309.0" y="1098" font-size="11" fill="#5b6c78">10.0.17.4/24</text>
+</g>
+<g class="topology-node" data-node-id="n-46-1108-BJ-PTN-RT-SW-1" data-x="46.0" data-y="1108" data-w="237.0" data-h="40">
+<rect x="46.0" y="1108" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="46.0" y="1108" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="62.0" y="1136" font-size="13" font-weight="700" fill="#17323a">BJ-PTN-RT-SW-1</text>
+</g>
+<g class="topology-node" data-node-id="n-293-1108-BJ-PTN-RT-SW-2" data-x="293.0" data-y="1108" data-w="237.0" data-h="40">
+<rect x="293.0" y="1108" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="293.0" y="1108" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="309.0" y="1136" font-size="13" font-weight="700" fill="#17323a">BJ-PTN-RT-SW-2</text>
+</g>
+<g class="topology-node" data-node-id="n-46-1158-BJ_PTN_SVR_SW_1" data-x="46.0" data-y="1158" data-w="237.0" data-h="40">
+<rect x="46.0" y="1158" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="46.0" y="1158" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="62.0" y="1180" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_SVR_SW_1</text>
+<text x="62.0" y="1198" font-size="11" fill="#5b6c78">10.0.16.1</text>
+</g>
+<g class="topology-node" data-node-id="n-293-1158-BJ_PTN_SVR_SW_2" data-x="293.0" data-y="1158" data-w="237.0" data-h="40">
+<rect x="293.0" y="1158" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="293.0" y="1158" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="309.0" y="1186" font-size="13" font-weight="700" fill="#17323a">BJ_PTN_SVR_SW_2</text>
+</g>
+<g class="topology-node" data-node-id="n-46-1208-B2-R14-39U-PTN-SW" data-x="46.0" data-y="1208" data-w="237.0" data-h="40">
+<rect x="46.0" y="1208" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="46.0" y="1208" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="62.0" y="1230" font-size="13" font-weight="700" fill="#17323a">B2-R14-39U-PTN-SW</text>
+<text x="62.0" y="1248" font-size="11" fill="#5b6c78">10.0.22.252 / .251</text>
+</g>
+<g class="topology-node" data-node-id="n-293-1208-B2-R17-39U-PTN-SW" data-x="293.0" data-y="1208" data-w="237.0" data-h="40">
+<rect x="293.0" y="1208" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="293.0" y="1208" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="309.0" y="1230" font-size="13" font-weight="700" fill="#17323a">B2-R17-39U-PTN-SW</text>
+<text x="309.0" y="1248" font-size="11" fill="#5b6c78">前置机 / 合作伙伴区</text>
+</g>
+<path class="topology-link" data-x1="608" data-y1="332" data-x2="584" data-y2="970" d="M608,332 L596,332 L596,970 L584,970" fill="none" stroke="#946200" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4"/>
+<rect x="608" y="756" width="464" height="300" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="626" y="784" font-size="15" font-weight="700" fill="#147d75">云与审计</text><g class="topology-node" data-node-id="n-628-794-BJ-BK-Azure-FW-01-02" data-x="628.0" data-y="794" data-w="199.0" data-h="44">
+<rect x="628.0" y="794" width="199.0" height="44" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="628.0" y="794" width="6" height="44" rx="3" fill="#946200"/>
+<text x="644.0" y="816" font-size="13" font-weight="700" fill="#17323a">BJ-BK-Azure-FW-01/02</text>
+<text x="644.0" y="834" font-size="11" fill="#5b6c78">VRRP 10.0.21.162/163</text>
+</g>
+<g class="topology-node" data-node-id="n-837-794-BJB2-R06-25-27U-Cloud-IRF" data-x="837.0" data-y="794" data-w="199.0" data-h="44">
+<rect x="837.0" y="794" width="199.0" height="44" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="837.0" y="794" width="6" height="44" rx="3" fill="#946200"/>
+<text x="853.0" y="816" font-size="13" font-weight="700" fill="#17323a">BJB2-R06-25-27U-Cloud-IRF</text>
+<text x="853.0" y="834" font-size="11" fill="#5b6c78">10.0.21.234 / .238</text>
+</g>
+<g class="topology-node" data-node-id="n-628-848-BJB2-R06-18U-Cloud-R" data-x="628.0" data-y="848" data-w="199.0" data-h="44">
+<rect x="628.0" y="848" width="199.0" height="44" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="628.0" y="848" width="6" height="44" rx="3" fill="#946200"/>
+<text x="644.0" y="870" font-size="13" font-weight="700" fill="#17323a">BJB2-R06-18U-Cloud-R</text>
+<text x="644.0" y="888" font-size="11" fill="#5b6c78">10.0.21.237</text>
+</g>
+<g class="topology-node" data-node-id="n-837-848-node" data-x="837.0" data-y="848" data-w="199.0" data-h="44">
+<rect x="837.0" y="848" width="199.0" height="44" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="837.0" y="848" width="6" height="44" rx="3" fill="#946200"/>
+<text x="853.0" y="870" font-size="13" font-weight="700" fill="#17323a">腾讯云</text>
+<text x="853.0" y="888" font-size="11" fill="#5b6c78">外联云</text>
+</g>
+<g class="topology-node" data-node-id="n-628-902-SJZY" data-x="628.0" data-y="902" data-w="199.0" data-h="44">
+<rect x="628.0" y="902" width="199.0" height="44" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="628.0" y="902" width="6" height="44" rx="3" fill="#946200"/>
+<text x="644.0" y="924" font-size="13" font-weight="700" fill="#17323a">SJZY</text>
+<text x="644.0" y="942" font-size="11" fill="#5b6c78">源图：B2_SJZY 10.0..41.1（待核）</text>
+</g>
+<g class="topology-node" data-node-id="n-837-902-VIP" data-x="837.0" data-y="902" data-w="199.0" data-h="44">
+<rect x="837.0" y="902" width="199.0" height="44" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="837.0" y="902" width="6" height="44" rx="3" fill="#946200"/>
+<text x="853.0" y="924" font-size="13" font-weight="700" fill="#17323a">审计防火墙 VIP</text>
+<text x="853.0" y="942" font-size="11" fill="#5b6c78">BJ-ZB-ShenJi-FW 1/2</text>
+</g>
+<path class="topology-link" data-x1="840" data-y1="364" data-x2="840" data-y2="756" d="M840,364 C840.0,364 840.0,756 840,756" fill="none" stroke="#946200" stroke-width="1.6"/>
+<rect x="1092" y="756" width="560" height="300" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="1110" y="784" font-size="15" font-weight="700" fill="#147d75">网管与服务器区</text><g class="topology-node" data-node-id="n-1112-794-B2-R13-41U-MGT" data-x="1112.0" data-y="794" data-w="237.0" data-h="44">
+<rect x="1112.0" y="794" width="237.0" height="44" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="1112.0" y="794" width="6" height="44" rx="3" fill="#4a5d6c"/>
+<text x="1128.0" y="816" font-size="13" font-weight="700" fill="#17323a">B2-R13-41U-MGT</text>
+<text x="1128.0" y="834" font-size="11" fill="#5b6c78">10.0.2.16 / .17 / .18</text>
+</g>
+<g class="topology-node" data-node-id="n-1359-794-B2-R06-39U-MGT" data-x="1359.0" data-y="794" data-w="237.0" data-h="44">
+<rect x="1359.0" y="794" width="237.0" height="44" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="1359.0" y="794" width="6" height="44" rx="3" fill="#4a5d6c"/>
+<text x="1375.0" y="816" font-size="13" font-weight="700" fill="#17323a">B2-R06-39U-MGT</text>
+<text x="1375.0" y="834" font-size="11" fill="#5b6c78">10.0.2.19</text>
+</g>
+<g class="topology-node" data-node-id="n-1112-848-B2-S5500-1-SRV" data-x="1112.0" data-y="848" data-w="237.0" data-h="44">
+<rect x="1112.0" y="848" width="237.0" height="44" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="1112.0" y="848" width="6" height="44" rx="3" fill="#4a5d6c"/>
+<text x="1128.0" y="870" font-size="13" font-weight="700" fill="#17323a">B2-S5500-1-SRV</text>
+<text x="1128.0" y="888" font-size="11" fill="#5b6c78">服务器区</text>
+</g>
+<g class="topology-node" data-node-id="n-1359-848-B2-S5500-2-SRV" data-x="1359.0" data-y="848" data-w="237.0" data-h="44">
+<rect x="1359.0" y="848" width="237.0" height="44" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="1359.0" y="848" width="6" height="44" rx="3" fill="#4a5d6c"/>
+<text x="1375.0" y="870" font-size="13" font-weight="700" fill="#17323a">B2-S5500-2-SRV</text>
+<text x="1375.0" y="888" font-size="11" fill="#5b6c78">服务器区</text>
+</g>
+<g class="topology-node" data-node-id="n-1112-902-B2-R13-39U-SRV-1-2" data-x="1112.0" data-y="902" data-w="237.0" data-h="44">
+<rect x="1112.0" y="902" width="237.0" height="44" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="1112.0" y="902" width="6" height="44" rx="3" fill="#4a5d6c"/>
+<text x="1128.0" y="924" font-size="13" font-weight="700" fill="#17323a">B2-R13-39U-SRV-1/2</text>
+<text x="1128.0" y="942" font-size="11" fill="#5b6c78">10.0.252.14</text>
+</g>
+<g class="topology-node" data-node-id="n-1359-902-node" data-x="1359.0" data-y="902" data-w="237.0" data-h="44">
+<rect x="1359.0" y="902" width="237.0" height="44" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="1359.0" y="902" width="6" height="44" rx="3" fill="#4a5d6c"/>
+<text x="1375.0" y="924" font-size="13" font-weight="700" fill="#17323a">镜像口 / 语音电话</text>
+<text x="1375.0" y="942" font-size="11" fill="#5b6c78">10.1.191.104~132</text>
+</g>
+<path class="topology-link" data-x1="1072" data-y1="192" data-x2="1372" data-y2="756" d="M1072,192 C1222.0,192 1222.0,756 1372,756" fill="none" stroke="#4a5d6c" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="28" y="1286" width="556" height="280" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="46" y="1314" font-size="15" font-weight="700" fill="#147d75">安监消防 / 门禁监控</text><g class="topology-node" data-node-id="n-46-1324-Anjian-Xiaofang-SW" data-x="46.0" data-y="1324" data-w="237.0" data-h="40">
+<rect x="46.0" y="1324" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="46.0" y="1324" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="62.0" y="1346" font-size="13" font-weight="700" fill="#17323a">Anjian-Xiaofang-SW</text>
+<text x="62.0" y="1364" font-size="11" fill="#5b6c78">10.1.106.175/24</text>
+</g>
+<g class="topology-node" data-node-id="n-293-1324-Anjian-Xiaofang-SW-2" data-x="293.0" data-y="1324" data-w="237.0" data-h="40">
+<rect x="293.0" y="1324" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="293.0" y="1324" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="309.0" y="1346" font-size="13" font-weight="700" fill="#17323a">Anjian-Xiaofang-SW-2</text>
+<text x="309.0" y="1364" font-size="11" fill="#5b6c78">10.1.106.174/24</text>
+</g>
+<g class="topology-node" data-node-id="n-46-1374-BJ-Huiyun-SW-1" data-x="46.0" data-y="1374" data-w="237.0" data-h="40">
+<rect x="46.0" y="1374" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="46.0" y="1374" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="62.0" y="1396" font-size="13" font-weight="700" fill="#17323a">BJ-Huiyun-SW-1</text>
+<text x="62.0" y="1414" font-size="11" fill="#5b6c78">10.1.106.1/24</text>
+</g>
+<g class="topology-node" data-node-id="n-293-1374-3" data-x="293.0" data-y="1374" data-w="237.0" data-h="40">
+<rect x="293.0" y="1374" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="293.0" y="1374" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="309.0" y="1396" font-size="13" font-weight="700" fill="#17323a">视频监控主机 ×3</text>
+<text x="309.0" y="1414" font-size="11" fill="#5b6c78">源图：10.05.55 / 10.05.56（待核）</text>
+</g>
+<g class="topology-node" data-node-id="n-46-1424-B2VIP" data-x="46.0" data-y="1424" data-w="237.0" data-h="40">
+<rect x="46.0" y="1424" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="46.0" y="1424" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="62.0" y="1452" font-size="13" font-weight="700" fill="#17323a">B2VIP 监控室商管门禁</text>
+</g>
+<g class="topology-node" data-node-id="n-293-1424-node" data-x="293.0" data-y="1424" data-w="237.0" data-h="40">
+<rect x="293.0" y="1424" width="237.0" height="40" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="293.0" y="1424" width="6" height="40" rx="3" fill="#b42318"/>
+<text x="309.0" y="1452" font-size="13" font-weight="700" fill="#17323a">慧云值班室</text>
+</g>
+<rect x="608" y="1072" width="1044" height="484" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="626" y="1100" font-size="15" font-weight="700" fill="#147d75">互联关系</text><g class="topology-node" data-node-id="n-628-1120-node" data-x="628" data-y="1120" data-w="320" data-h="56">
+<rect x="628" y="1120" width="320" height="56" rx="8" fill="#e7f4f2" stroke="#147d75" stroke-width="1.4"/>
+<rect x="628" y="1120" width="6" height="56" rx="3" fill="#147d75"/>
+<text x="644" y="1142" font-size="13" font-weight="700" fill="#17323a">上联总部核心</text>
+<text x="644" y="1160" font-size="11" fill="#5b6c78">楼层 / 无线 / 网管 / PTN / 云</text>
+</g><g class="topology-node" data-node-id="n-968-1120-node" data-x="968" data-y="1120" data-w="320" data-h="56">
+<rect x="968" y="1120" width="320" height="56" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="968" y="1120" width="6" height="56" rx="3" fill="#17724f"/>
+<text x="984" y="1142" font-size="13" font-weight="700" fill="#17323a">下联互联网出口</text>
+<text x="984" y="1160" font-size="11" fill="#5b6c78">联通 / 银行专线 / 防火墙 / AC</text>
+</g><g class="topology-node" data-node-id="n-1308-1120-node" data-x="1308" data-y="1120" data-w="320" data-h="56">
+<rect x="1308" y="1120" width="320" height="56" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="1308" y="1120" width="6" height="56" rx="3" fill="#946200"/>
+<text x="1324" y="1142" font-size="13" font-weight="700" fill="#17323a">跨园区</text>
+<text x="1324" y="1160" font-size="11" fill="#5b6c78">光子专线 · 廊坊 SD-WAN 见后页</text>
+</g><g class="topology-node" data-node-id="n-628-1200-node" data-x="628" data-y="1200" data-w="1000" data-h="72">
+<rect x="628" y="1200" width="1000" height="72" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="628" y="1200" width="6" height="72" rx="3" fill="#4a5d6c"/>
+<text x="644" y="1222" font-size="13" font-weight="700" fill="#17323a">已下架</text>
+<text x="644" y="1240" font-size="11" fill="#5b6c78">BJ_ZB_F17_HJ、BJ_ZB_F18_HJ。端口号按原图收进设备说明，避免把主路径淹没。</text>
+</g><g class="topology-node" data-node-id="n-628-1290-node" data-x="628" data-y="1290" data-w="1000" data-h="72">
+<rect x="628" y="1290" width="1000" height="72" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="628" y="1290" width="6" height="72" rx="3" fill="#4a5d6c"/>
+<text x="644" y="1312" font-size="13" font-weight="700" fill="#17323a">覆盖范围</text>
+<text x="644" y="1330" font-size="11" fill="#5b6c78">互联网出口、总部核心、B座与12号楼接入、无线 AC、PTN、Azure/腾讯云、安监消防、商管与银行专线。</text>
+</g><g class="topology-node" data-node-id="n-628-1380-node" data-x="628" data-y="1380" data-w="1000" data-h="72">
+<rect x="628" y="1380" width="1000" height="72" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="628" y="1380" width="6" height="72" rx="3" fill="#4a5d6c"/>
+<text x="644" y="1402" font-size="13" font-weight="700" fill="#17323a">资料来源</text>
+<text x="644" y="1420" font-size="11" fill="#5b6c78">万达总部逻辑互联图 2026-05-28，按设备与分区重绘，不再使用 Visio 直出的散乱方块。</text>
+</g>
+</svg>

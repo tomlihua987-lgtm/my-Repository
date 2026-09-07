@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" font-family="Microsoft YaHei,Segoe UI,sans-serif">
+<rect width="100%" height="100%" fill="#f4f7f9"/>
+<rect width="100%" height="72" fill="#12353a"/><text x="28" y="32" font-size="22" font-weight="700" fill="#fff">院线总部互联</text><text x="28" y="54" font-size="13" fill="#b7d4d0">集团灾备机房经防火墙、汇聚、出口路由器接入院线新办公区，并与腾讯云独立组网备份</text><text x="1252" y="42" text-anchor="end" font-size="12" fill="#8fb8b3">按 2026-05-28 逻辑互联图重绘 · 端口细节见设备卡片</text>
+<rect x="28" y="88" width="14" height="14" rx="3" fill="#e7f4f2" stroke="#147d75"/>
+<text x="48" y="100" font-size="12" fill="#526474">核心</text>
+<rect x="146" y="88" width="14" height="14" rx="3" fill="#fde8e8" stroke="#b42318"/>
+<text x="166" y="100" font-size="12" fill="#526474">防火墙</text>
+<rect x="264" y="88" width="14" height="14" rx="3" fill="#e7f3fb" stroke="#1d6f94"/>
+<text x="284" y="100" font-size="12" fill="#526474">交换机</text>
+<rect x="382" y="88" width="14" height="14" rx="3" fill="#fff2d8" stroke="#946200"/>
+<text x="402" y="100" font-size="12" fill="#526474">路由/CPE</text>
+<rect x="500" y="88" width="14" height="14" rx="3" fill="#e8eefc" stroke="#3553a0"/>
+<text x="520" y="100" font-size="12" fill="#526474">负载/AC</text>
+<rect x="618" y="88" width="14" height="14" rx="3" fill="#f3eef8" stroke="#6b4b8a"/>
+<text x="638" y="100" font-size="12" fill="#526474">无线/终端</text>
+<rect x="736" y="88" width="14" height="14" rx="3" fill="#e4f5ee" stroke="#17724f"/>
+<text x="756" y="100" font-size="12" fill="#526474">线路</text>
+<rect x="854" y="88" width="14" height="14" rx="3" fill="#edf2f5" stroke="#4a5d6c"/>
+<text x="874" y="100" font-size="12" fill="#526474">主机/业务</text>
+<rect x="40" y="130" width="1200" height="120" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="58" y="158" font-size="15" font-weight="700" fill="#147d75">集团灾备机房</text><g class="topology-node" data-node-id="n-60-175-BJ-BK-CS-IRF" data-x="60" data-y="175" data-w="360" data-h="52">
+<rect x="60" y="175" width="360" height="52" rx="8" fill="#e7f4f2" stroke="#147d75" stroke-width="1.4"/>
+<rect x="60" y="175" width="6" height="52" rx="3" fill="#147d75"/>
+<text x="76" y="197" font-size="13" font-weight="700" fill="#17323a">BJ-BK-CS-IRF</text>
+<text x="76" y="215" font-size="11" fill="#5b6c78">G1/1/0/38 · G2/1/0/38  VLAN 3000</text>
+</g><g class="topology-node" data-node-id="n-440-175-10-177-30-1-29" data-x="440" data-y="175" data-w="260" data-h="52">
+<rect x="440" y="175" width="260" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="440" y="175" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="456" y="197" font-size="13" font-weight="700" fill="#17323a">10.177.30.1/29</text>
+<text x="456" y="215" font-size="11" fill="#5b6c78">互联网段</text>
+</g><g class="topology-node" data-node-id="n-720-175-BJ-BK-MGT-2" data-x="720" data-y="175" data-w="240" data-h="52">
+<rect x="720" y="175" width="240" height="52" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="720" y="175" width="6" height="52" rx="3" fill="#4a5d6c"/>
+<text x="736" y="203" font-size="13" font-weight="700" fill="#17323a">BJ-BK-MGT-2</text>
+</g><g class="topology-node" data-node-id="n-980-175-26010503887" data-x="980" data-y="175" data-w="240" data-h="52">
+<rect x="980" y="175" width="240" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="980" y="175" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="996" y="197" font-size="13" font-weight="700" fill="#17323a">专线 26010503887</text>
+<text x="996" y="215" font-size="11" fill="#5b6c78">100M 备份</text>
+</g>
+<rect x="40" y="270" width="1200" height="200" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="58" y="298" font-size="15" font-weight="700" fill="#147d75">院线防火墙 / 汇聚</text><g class="topology-node" data-node-id="n-60-320-BJ-BK-YC-FW-1" data-x="60" data-y="320" data-w="360" data-h="56">
+<rect x="60" y="320" width="360" height="56" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="60" y="320" width="6" height="56" rx="3" fill="#b42318"/>
+<text x="76" y="342" font-size="13" font-weight="700" fill="#17323a">BJ-BK-YC-FW-1</text>
+<text x="76" y="360" font-size="11" fill="#5b6c78">ETH1 10.177.30.4/29  VIP .6</text>
+</g><g class="topology-node" data-node-id="n-440-320-BJ-BK-YC-FW-2" data-x="440" data-y="320" data-w="360" data-h="56">
+<rect x="440" y="320" width="360" height="56" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="440" y="320" width="6" height="56" rx="3" fill="#b42318"/>
+<text x="456" y="342" font-size="13" font-weight="700" fill="#17323a">BJ-BK-YC-FW-2</text>
+<text x="456" y="360" font-size="11" fill="#5b6c78">ETH1 10.177.30.5/29  VIP .6</text>
+</g><g class="topology-node" data-node-id="n-820-320-HA-VIP" data-x="820" data-y="320" data-w="200" data-h="56">
+<rect x="820" y="320" width="200" height="56" rx="8" fill="#fde8e8" stroke="#b42318" stroke-width="1.4"/>
+<rect x="820" y="320" width="6" height="56" rx="3" fill="#b42318"/>
+<text x="836" y="342" font-size="13" font-weight="700" fill="#17323a">HA / VIP</text>
+<text x="836" y="360" font-size="11" fill="#5b6c78">10.177.30.6/29</text>
+</g><g class="topology-node" data-node-id="n-60-396-BJ-BK-YC-TC-IRF-1" data-x="60" data-y="396" data-w="360" data-h="52">
+<rect x="60" y="396" width="360" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="60" y="396" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="76" y="418" font-size="13" font-weight="700" fill="#17323a">BJ-BK-YC-TC-IRF-1</text>
+<text x="76" y="436" font-size="11" fill="#5b6c78">10.0.39.3  ETH2 .12  VIP .14</text>
+</g><g class="topology-node" data-node-id="n-440-396-BJ-BK-YC-TC-IRF-2" data-x="440" data-y="396" data-w="360" data-h="52">
+<rect x="440" y="396" width="360" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="440" y="396" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="456" y="418" font-size="13" font-weight="700" fill="#17323a">BJ-BK-YC-TC-IRF-2</text>
+<text x="456" y="436" font-size="11" fill="#5b6c78">ETH2 10.177.30.13/29  VIP .14</text>
+</g><g class="topology-node" data-node-id="n-820-396-VRRP-10-177-30-9-29" data-x="820" data-y="396" data-w="400" data-h="52">
+<rect x="820" y="396" width="400" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="820" y="396" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="836" y="418" font-size="13" font-weight="700" fill="#17323a">VRRP 10.177.30.9/29</text>
+<text x="836" y="436" font-size="11" fill="#5b6c78">Ten0/16 .10 / .11</text>
+</g>
+<rect x="40" y="490" width="1200" height="200" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="58" y="518" font-size="15" font-weight="700" fill="#147d75">院线出口</text><g class="topology-node" data-node-id="n-60-540-BJ-BK-YC-BR-1" data-x="60" data-y="540" data-w="360" data-h="56">
+<rect x="60" y="540" width="360" height="56" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="60" y="540" width="6" height="56" rx="3" fill="#946200"/>
+<text x="76" y="562" font-size="13" font-weight="700" fill="#17323a">BJ-BK-YC-BR-1</text>
+<text x="76" y="580" font-size="11" fill="#5b6c78">Ten0/18 10.177.30.17/30</text>
+</g><g class="topology-node" data-node-id="n-440-540-BJ-BK-YC-BR-2" data-x="440" data-y="540" data-w="360" data-h="56">
+<rect x="440" y="540" width="360" height="56" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="440" y="540" width="6" height="56" rx="3" fill="#946200"/>
+<text x="456" y="562" font-size="13" font-weight="700" fill="#17323a">BJ-BK-YC-BR-2</text>
+<text x="456" y="580" font-size="11" fill="#5b6c78">Ten0/18 10.177.30.18/30</text>
+</g><g class="topology-node" data-node-id="n-820-540-node" data-x="820" data-y="540" data-w="400" data-h="56">
+<rect x="820" y="540" width="400" height="56" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="820" y="540" width="6" height="56" rx="3" fill="#17724f"/>
+<text x="836" y="568" font-size="13" font-weight="700" fill="#17323a">线路备份 / 腾讯云院线独立组网</text>
+</g><g class="topology-node" data-node-id="n-60-616-NEW-YC-BR-1" data-x="60" data-y="616" data-w="360" data-h="52">
+<rect x="60" y="616" width="360" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="60" y="616" width="6" height="52" rx="3" fill="#946200"/>
+<text x="76" y="638" font-size="13" font-weight="700" fill="#17323a">NEW-YC-BR-1</text>
+<text x="76" y="656" font-size="11" fill="#5b6c78">G0/1 10.177.30.34/29</text>
+</g><g class="topology-node" data-node-id="n-440-616-NEW-YC-BR-2" data-x="440" data-y="616" data-w="360" data-h="52">
+<rect x="440" y="616" width="360" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="440" y="616" width="6" height="52" rx="3" fill="#946200"/>
+<text x="456" y="638" font-size="13" font-weight="700" fill="#17323a">NEW-YC-BR-2</text>
+<text x="456" y="656" font-size="11" fill="#5b6c78">G0/1 10.177.30.35/29</text>
+</g><g class="topology-node" data-node-id="n-820-616-VRRP-10-177-30-33-29" data-x="820" data-y="616" data-w="400" data-h="52">
+<rect x="820" y="616" width="400" height="52" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="820" y="616" width="6" height="52" rx="3" fill="#17724f"/>
+<text x="836" y="638" font-size="13" font-weight="700" fill="#17323a">VRRP 10.177.30.33/29</text>
+<text x="836" y="656" font-size="11" fill="#5b6c78">G0/0 .29 / .30  G0/2 .22 / .26</text>
+</g>
+<rect x="40" y="710" width="1200" height="140" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="58" y="738" font-size="15" font-weight="700" fill="#147d75">院线总部新办公区</text><g class="topology-node" data-node-id="n-60-760-node" data-x="60" data-y="760" data-w="1160" data-h="60">
+<rect x="60" y="760" width="1160" height="60" rx="8" fill="#edf2f5" stroke="#4a5d6c" stroke-width="1.4"/>
+<rect x="60" y="760" width="6" height="60" rx="3" fill="#4a5d6c"/>
+<text x="76" y="782" font-size="13" font-weight="700" fill="#17323a">院线总部 · 新办公区</text>
+<text x="76" y="800" font-size="11" fill="#5b6c78">经 VLAN 3000 上联集团灾备核心，双机防火墙与双出口保障</text>
+</g>
+</svg>

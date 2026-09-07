@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei,Segoe UI,sans-serif">
+<rect width="100%" height="100%" fill="#f4f7f9"/>
+<rect width="100%" height="72" fill="#12353a"/><text x="28" y="32" font-size="22" font-weight="700" fill="#fff">廊坊 SD-WAN</text><text x="28" y="54" font-size="13" fill="#b7d4d0">廊坊 CPE 双活经 QFX / EX92 与北京备控核心通过裸光纤和 POP 专线互联</text><text x="1252" y="42" text-anchor="end" font-size="12" fill="#8fb8b3">按 2026-05-28 逻辑互联图重绘 · 端口细节见设备卡片</text>
+<rect x="28" y="88" width="14" height="14" rx="3" fill="#e7f4f2" stroke="#147d75"/>
+<text x="48" y="100" font-size="12" fill="#526474">核心</text>
+<rect x="146" y="88" width="14" height="14" rx="3" fill="#fde8e8" stroke="#b42318"/>
+<text x="166" y="100" font-size="12" fill="#526474">防火墙</text>
+<rect x="264" y="88" width="14" height="14" rx="3" fill="#e7f3fb" stroke="#1d6f94"/>
+<text x="284" y="100" font-size="12" fill="#526474">交换机</text>
+<rect x="382" y="88" width="14" height="14" rx="3" fill="#fff2d8" stroke="#946200"/>
+<text x="402" y="100" font-size="12" fill="#526474">路由/CPE</text>
+<rect x="500" y="88" width="14" height="14" rx="3" fill="#e8eefc" stroke="#3553a0"/>
+<text x="520" y="100" font-size="12" fill="#526474">负载/AC</text>
+<rect x="618" y="88" width="14" height="14" rx="3" fill="#f3eef8" stroke="#6b4b8a"/>
+<text x="638" y="100" font-size="12" fill="#526474">无线/终端</text>
+<rect x="736" y="88" width="14" height="14" rx="3" fill="#e4f5ee" stroke="#17724f"/>
+<text x="756" y="100" font-size="12" fill="#526474">线路</text>
+<rect x="854" y="88" width="14" height="14" rx="3" fill="#edf2f5" stroke="#4a5d6c"/>
+<text x="874" y="100" font-size="12" fill="#526474">主机/业务</text>
+<rect x="40" y="130" width="560" height="250" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="58" y="158" font-size="15" font-weight="700" fill="#147d75">廊坊 CPE</text><g class="topology-node" data-node-id="n-60-180-LF-CPE-1" data-x="60" data-y="180" data-w="250" data-h="52">
+<rect x="60" y="180" width="250" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="60" y="180" width="6" height="52" rx="3" fill="#946200"/>
+<text x="76" y="202" font-size="13" font-weight="700" fill="#17323a">LF-CPE-1</text>
+<text x="76" y="220" font-size="11" fill="#5b6c78">A1-03-CPE_1</text>
+</g><g class="topology-node" data-node-id="n-330-180-LF-CPE-3" data-x="330" data-y="180" data-w="250" data-h="52">
+<rect x="330" y="180" width="250" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="330" y="180" width="6" height="52" rx="3" fill="#946200"/>
+<text x="346" y="202" font-size="13" font-weight="700" fill="#17323a">LF-CPE-3</text>
+<text x="346" y="220" font-size="11" fill="#5b6c78">A1-03-CPE_2</text>
+</g><g class="topology-node" data-node-id="n-60-250-LF-CPE-2" data-x="60" data-y="250" data-w="250" data-h="52">
+<rect x="60" y="250" width="250" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="60" y="250" width="6" height="52" rx="3" fill="#946200"/>
+<text x="76" y="272" font-size="13" font-weight="700" fill="#17323a">LF-CPE-2</text>
+<text x="76" y="290" font-size="11" fill="#5b6c78">B1-03-CPE_1</text>
+</g><g class="topology-node" data-node-id="n-330-250-LF-CPE-4" data-x="330" data-y="250" data-w="250" data-h="52">
+<rect x="330" y="250" width="250" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="330" y="250" width="6" height="52" rx="3" fill="#946200"/>
+<text x="346" y="272" font-size="13" font-weight="700" fill="#17323a">LF-CPE-4</text>
+<text x="346" y="290" font-size="11" fill="#5b6c78">B1-03-CPE-2</text>
+</g>
+<rect x="40" y="400" width="560" height="250" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="58" y="428" font-size="15" font-weight="700" fill="#147d75">廊坊核心</text><g class="topology-node" data-node-id="n-60-450-SDWAN-A1-03_QFX-1" data-x="60" data-y="450" data-w="250" data-h="56">
+<rect x="60" y="450" width="250" height="56" rx="8" fill="#e7f4f2" stroke="#147d75" stroke-width="1.4"/>
+<rect x="60" y="450" width="6" height="56" rx="3" fill="#147d75"/>
+<text x="76" y="478" font-size="13" font-weight="700" fill="#17323a">SDWAN-A1-03_QFX-1</text>
+</g><g class="topology-node" data-node-id="n-330-450-SDWAN-B1-03_QFX-1" data-x="330" data-y="450" data-w="250" data-h="56">
+<rect x="330" y="450" width="250" height="56" rx="8" fill="#e7f4f2" stroke="#147d75" stroke-width="1.4"/>
+<rect x="330" y="450" width="6" height="56" rx="3" fill="#147d75"/>
+<text x="346" y="478" font-size="13" font-weight="700" fill="#17323a">SDWAN-B1-03_QFX-1</text>
+</g><g class="topology-node" data-node-id="n-60-530-CS_A1-03_EX92_1" data-x="60" data-y="530" data-w="250" data-h="52">
+<rect x="60" y="530" width="250" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="60" y="530" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="76" y="558" font-size="13" font-weight="700" fill="#17323a">CS_A1-03_EX92_1</text>
+</g><g class="topology-node" data-node-id="n-330-530-CS_B1-03_EX92_1" data-x="330" data-y="530" data-w="250" data-h="52">
+<rect x="330" y="530" width="250" height="52" rx="8" fill="#e7f3fb" stroke="#1d6f94" stroke-width="1.4"/>
+<rect x="330" y="530" width="6" height="52" rx="3" fill="#1d6f94"/>
+<text x="346" y="558" font-size="13" font-weight="700" fill="#17323a">CS_B1-03_EX92_1</text>
+</g>
+<rect x="640" y="130" width="600" height="250" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="658" y="158" font-size="15" font-weight="700" fill="#147d75">传输</text><g class="topology-node" data-node-id="n-660-180-node" data-x="660" data-y="180" data-w="560" data-h="56">
+<rect x="660" y="180" width="560" height="56" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="660" y="180" width="6" height="56" rx="3" fill="#17724f"/>
+<text x="676" y="208" font-size="13" font-weight="700" fill="#17323a">北京-廊坊 裸光纤</text>
+</g><g class="topology-node" data-node-id="n-660-250-POP" data-x="660" data-y="250" data-w="270" data-h="56">
+<rect x="660" y="250" width="270" height="56" rx="8" fill="#e4f5ee" stroke="#17724f" stroke-width="1.4"/>
+<rect x="660" y="250" width="6" height="56" rx="3" fill="#17724f"/>
+<text x="676" y="278" font-size="13" font-weight="700" fill="#17323a">POP 专线</text>
+</g><g class="topology-node" data-node-id="n-950-250-2-CPE" data-x="950" data-y="250" data-w="270" data-h="56">
+<rect x="950" y="250" width="270" height="56" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="950" y="250" width="6" height="56" rx="3" fill="#946200"/>
+<text x="966" y="278" font-size="13" font-weight="700" fill="#17323a">2层隧道 CPE 主/备</text>
+</g>
+<rect x="640" y="400" width="600" height="250" rx="14" fill="#fff" stroke="#d5e0e6"/><text x="658" y="428" font-size="15" font-weight="700" fill="#147d75">北京备控</text><g class="topology-node" data-node-id="n-660-450-BJ-BK-CS-1" data-x="660" data-y="450" data-w="270" data-h="56">
+<rect x="660" y="450" width="270" height="56" rx="8" fill="#e7f4f2" stroke="#147d75" stroke-width="1.4"/>
+<rect x="660" y="450" width="6" height="56" rx="3" fill="#147d75"/>
+<text x="676" y="478" font-size="13" font-weight="700" fill="#17323a">BJ-BK-CS-1</text>
+</g><g class="topology-node" data-node-id="n-950-450-BJ-BK-CS-2" data-x="950" data-y="450" data-w="270" data-h="56">
+<rect x="950" y="450" width="270" height="56" rx="8" fill="#e7f4f2" stroke="#147d75" stroke-width="1.4"/>
+<rect x="950" y="450" width="6" height="56" rx="3" fill="#147d75"/>
+<text x="966" y="478" font-size="13" font-weight="700" fill="#17323a">BJ-BK-CS-2</text>
+</g><g class="topology-node" data-node-id="n-660-530-CPE-1" data-x="660" data-y="530" data-w="130" data-h="52">
+<rect x="660" y="530" width="130" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="660" y="530" width="6" height="52" rx="3" fill="#946200"/>
+<text x="676" y="558" font-size="13" font-weight="700" fill="#17323a">CPE-1</text>
+</g><g class="topology-node" data-node-id="n-800-530-CPE-2" data-x="800" data-y="530" data-w="130" data-h="52">
+<rect x="800" y="530" width="130" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="800" y="530" width="6" height="52" rx="3" fill="#946200"/>
+<text x="816" y="558" font-size="13" font-weight="700" fill="#17323a">CPE-2</text>
+</g><g class="topology-node" data-node-id="n-940-530-CPE-3" data-x="940" data-y="530" data-w="130" data-h="52">
+<rect x="940" y="530" width="130" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="940" y="530" width="6" height="52" rx="3" fill="#946200"/>
+<text x="956" y="558" font-size="13" font-weight="700" fill="#17323a">CPE-3</text>
+</g><g class="topology-node" data-node-id="n-1080-530-CPE-4" data-x="1080" data-y="530" data-w="130" data-h="52">
+<rect x="1080" y="530" width="130" height="52" rx="8" fill="#fff2d8" stroke="#946200" stroke-width="1.4"/>
+<rect x="1080" y="530" width="6" height="52" rx="3" fill="#946200"/>
+<text x="1096" y="558" font-size="13" font-weight="700" fill="#17323a">CPE-4</text>
+</g>
+<path class="topology-link" data-x1="600" data-y1="255" data-x2="660" data-y2="208" d="M600,255 C630.0,255 630.0,208 660,208" fill="none" stroke="#17724f" stroke-width="1.6"/>
+<path class="topology-link" data-x1="600" data-y1="525" data-x2="660" data-y2="478" d="M600,525 C630.0,525 630.0,478 660,478" fill="none" stroke="#147d75" stroke-width="1.6"/>
+</svg>

@@ -1,0 +1,96 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>网络综合管理平台</title><link rel="stylesheet" href="/styles.css?v=20260903-1"><link rel="stylesheet" href="/resources.css?v=20260903-2"><link rel="stylesheet" href="/collab.css?v=20260903-2"></head><body>
+<section id="login" class="login-shell"><div class="login-card"><div class="brand-mark">NW</div><h1>网络综合管理平台</h1><p>统一管理资产、IP 地址、线路、无线、负载均衡与运维资料</p><form id="loginForm"><label>用户名<input name="username" autocomplete="username" autofocus required></label><label>密码<input name="password" type="password" autocomplete="current-password" required></label><button>登录系统</button><div id="loginError" class="error"></div></form><small>账号由管理员在「账号管理」开通，忘记密码请联系管理员重置</small></div></section>
+<div id="app" class="app hidden">
+  <aside><div class="logo"><span>NW</span><div>NetOps<small>网络综合管理平台</small></div><button id="navToggle" class="nav-toggle" type="button" title="收起侧边栏">«</button></div><nav>
+    <button data-page="dashboard" data-abbr="总" data-title="平台总览" data-desc="北京总部与燕郊光子机房网络资源统一视图" class="active">平台总览</button>
+    <button data-page="ask" data-abbr="问" data-title="智能问答" data-desc="用大白话查资料，支持影响面分析、网段占用、配置检索">智能问答</button>
+    <small class="nav-group">业务模块</small>
+    <!-- 7 个业务模块的按钮由 modules.js 的 MODULES 注册表生成，app.js 加载时插在这里 -->
+    <small class="nav-group" id="navToolsGroup">工具</small>
+    <button data-page="tools" data-abbr="工" data-title="工具" data-desc="批量 ping 连通性探测、网段计算与查询、查 IP 归属">工具</button>
+    <small class="nav-group">监控建设</small>
+    <button data-page="planned" data-abbr="监" data-module="网管监控" data-title="网管监控" data-desc="设备状态、性能指标和告警中心">网管监控</button>
+    <button data-page="planned" data-abbr="流" data-module="流量分析" data-title="流量分析" data-desc="接口流量、趋势和 Top 会话分析">流量分析</button>
+    <small class="nav-group">协同研发</small>
+    <button data-page="feedback" data-abbr="意" data-title="意见收集" data-desc="功能建议、问题反馈、数据纠错：谁提了什么，文字、截图、文件都收在这里">意见收集</button>
+    <small class="nav-group">系统</small>
+    <button id="usersNav" class="hidden" data-page="users" data-abbr="号" data-title="账号管理" data-desc="按角色分类管理登录账号、权限和状态">账号管理</button>
+    <button id="auditNav" data-page="audit" data-abbr="审" data-title="审计日志" data-desc="谁在什么时候、从哪台机器改了什么、做了什么、提了什么意见">审计日志</button>
+  </nav><div class="user"><b id="userName" title="点击修改密码"></b><small id="userRole"></small><button id="logout" title="退出登录">退出登录</button></div></aside>
+  <main><header><div><h2 id="pageTitle">资源总览</h2><p id="pageDesc">北京总部与燕郊光子机房数据中心网络资源统一视图</p></div><div class="header-actions"><button id="importBtn">导入 Excel</button><a class="button" href="/api/export.csv">导出 CSV</a></div></header>
+    <section id="dashboardPage" class="page"><div id="stats" class="stats"></div><div id="moduleStats" class="module-grid"></div><div class="panel"><div class="panel-head"><h3>燕郊光子机房 IDC 各网络分区使用情况</h3><span class="bar-legend"><i class="k-assigned"></i>登记已分配<i class="k-detected"></i>资料检出占用<i class="k-reserved"></i>预留<i class="k-free"></i>可用</span></div><div id="zoneBars"></div></div></section>
+    <!-- 模块页骨架：概览卡 → 页签 → （面板容器 | 子页签 + 工具栏 + 明细表）。哪些块显示由 modules.js 的 applyLayout 按页签 kind 切换 -->
+    <section id="resourcesPage" class="page hidden"><div id="resourceSummary" class="asset-overview"></div><div id="assetTabs" class="asset-tabs"></div><div id="assetSummary" class="hidden"></div><div id="subTabs" class="asset-tabs sub-tabs hidden"></div><div class="toolbar resource-toolbar"><input id="resourceSearch" placeholder="搜索"><select id="locationFilter"><option value="">全部地理位置</option><option>北京总部</option><option>燕郊光子机房</option><option>集团跨区域</option><option>其他区域</option></select><select id="assetStatusFilter" class="hidden"><option value="">全部状态</option><option>在线</option><option>下线</option><option>在库</option></select></div><div class="panel table-wrap"><div id="weeklyRoot"></div><div id="topologyRoot"></div><table id="resourceTable"><thead><tr id="resourceHead"></tr><tr id="resourceFilters"></tr></thead><tbody id="resourceRows"></tbody></table></div></section>
+    <section id="askPage" class="page hidden"><div class="ask-shell"><div id="askLog" class="ask-log"></div><div class="ask-input"><textarea id="askBox" rows="1" placeholder="用大白话提问，例如：10.199.10.35 下线会影响什么" autocomplete="off"></textarea><button id="askSend" type="button">发送</button></div><div class="ask-foot"><span id="askEngine"></span><span>回答里的每条记录都可以点开核对原始数据</span></div></div></section>
+    <!-- 网段管理表：IDC / 办公网 / 公网 三个页签共用，说明文字、列头、占位符由 app.js 的 setSubnetsPage(kind) 按地址空间填 -->
+    <section id="subnetsPage" class="page hidden"><div class="scope-note"><b id="subnetsScopeTitle">燕郊光子机房数据中心（IDC）</b><span id="subnetsScopeText"></span></div><div class="toolbar"><input id="subnetSearch" placeholder="搜索网段、分区、子模块或备注"><select id="zoneFilter"><option value="">全部网络分区</option></select><select id="subnetStatus"><option value="">全部状态</option><option>已使用</option><option>预留</option><option>停用</option></select><button id="newSubnet">新增网段</button></div><div class="panel table-wrap"><table><thead id="subnetHead"><tr><th>网络分区</th><th>子模块</th><th>网段</th><th>状态</th><th>使用情况</th><th>VLAN</th><th>负责人</th><th>操作</th></tr></thead><tbody id="subnetRows"></tbody></table></div></section>
+    <section id="auditPage" class="page hidden">
+      <div id="auditSummary" class="asset-overview"></div>
+      <div id="auditTabs" class="asset-tabs"></div>
+      <div class="toolbar audit-toolbar"><input id="auditSearch" placeholder="搜索标识、操作人、动作或变更内容"><select id="auditUser"><option value="">全部操作人</option></select><select id="auditAction"><option value="">全部动作</option></select><input id="auditFrom" type="date" title="开始日期"><input id="auditTo" type="date" title="结束日期"><button id="auditExport" class="secondary" type="button">导出 CSV</button></div>
+      <div class="panel table-wrap"><table class="audit-table"><thead><tr><th>时间</th><th>操作人</th><th>动作</th><th>对象</th><th>标识</th><th>来源 IP</th><th>详情</th></tr></thead><tbody id="auditRows"></tbody></table></div>
+    </section>
+    <section id="feedbackPage" class="page hidden">
+      <div class="fb-guide">
+        <div class="fb-guide-copy"><small>意见怎么提</small><h3>遇到问题、数据不对或想增加功能，都可以在这里告诉研发人员</h3><p>不会写技术说明也没关系：简单说清“现在是什么样、希望变成什么样”，再附一张截图就可以。</p></div>
+        <ol><li><b>1　填写标题</b><span>用一句话说明问题或想法</span></li><li><b>2　补充情况</b><span>描述操作步骤、错误数据或期望效果</span></li><li><b>3　上传材料</b><span>可附截图、文档、表格或压缩包</span></li><li><b>4　查看进度</b><span>提交后可在下方查看回复和处理状态</span></li></ol>
+        <div class="fb-guide-action"><button id="fbGuideNew" type="button">立即填写意见</button><small>标题必填；内容和附件可按实际情况填写</small><em>请勿上传包含账号、密码或密钥的截图和文件</em></div>
+      </div>
+      <div id="fbSummary" class="asset-overview"></div>
+      <div id="fbTabs" class="asset-tabs"></div>
+      <div class="toolbar fb-toolbar"><input id="fbSearch" placeholder="搜索标题、内容、提交人或模块"><select id="fbStatus"><option value="">全部状态</option></select><select id="fbScope"><option value="">所有人提交的</option><option value="1">只看我提交的</option></select><button id="fbNew" type="button">填写意见 / 上传附件</button></div>
+      <div id="fbList" class="fb-list"></div>
+    </section>
+    <section id="usersPage" class="page hidden"><div id="userRoleSummary" class="asset-overview user-role-summary"></div><div id="userRoleTabs" class="asset-tabs"></div><div class="toolbar users-toolbar"><input id="userSearch" placeholder="搜索用户名或姓名"><button id="newUser">新增账号</button></div><div class="panel table-wrap"><table><thead><tr><th>用户名</th><th>姓名</th><th>角色</th><th>状态</th><th>创建时间</th><th>操作</th></tr></thead><tbody id="userRows"></tbody></table></div></section>
+    <section id="toolsPage" class="page hidden">
+      <div class="tool-tabs"><button type="button" class="active" data-tool="ping">批量 ping</button><button type="button" data-tool="mask">网段计算与查询</button></div>
+
+      <div id="toolPing" class="tool-body">
+        <div class="panel tool-panel">
+          <div class="panel-head"><h3>批量连通性探测</h3><span>ICMP 探测由平台所在的服务器发起，不是你的浏览器</span></div>
+          <div class="tool-form">
+            <label class="tool-field"><b>探测目标<em>每行一个，也可用逗号分隔；支持 10.1.1.1、10.1.1.0/24、10.1.1.5-20、10.1.1.5-10.1.1.20</em></b>
+              <textarea id="pingTargets" rows="7" placeholder="10.1.152.2&#10;10.1.152.0/24&#10;10.199.10.1-20"></textarea></label>
+            <div class="tool-side">
+              <label class="tool-field"><b>从平台资料带入</b><select id="pingSource"><option value="">选择一类资料…</option></select></label>
+              <label class="tool-field"><b>从 IDC 网段带入</b><select id="pingSubnet"><option value="">选择一个网段…</option></select></label>
+              <div class="tool-row">
+                <label class="tool-field"><b>超时(ms)</b><input id="pingTimeout" type="number" value="1000" min="200" max="5000" step="100"></label>
+                <label class="tool-field"><b>并发</b><input id="pingConcurrency" type="number" value="32" min="1" max="128"></label>
+              </div>
+              <div class="tool-actions"><button id="pingRun" type="button">开始探测</button><button id="pingClear" type="button" class="secondary">清空</button></div>
+              <small id="pingCount" class="tool-hint"></small>
+            </div>
+          </div>
+        </div>
+        <div id="pingSummary" class="asset-overview hidden"></div>
+        <div id="pingNote" class="tool-note hidden"></div>
+        <div id="pingResult" class="panel table-wrap hidden">
+          <div class="tool-filter"><span>只看：</span><select id="pingVerdict"><option value="">全部结果</option><option>未登记占用</option><option>资料标在线但不通</option><option>登记未响应</option><option>无响应</option><option>正常</option></select><small id="pingShown"></small></div>
+          <table><thead><tr><th>IP 地址</th><th>结果</th><th>延迟</th><th>判定</th><th>资料库登记</th><th>类别</th><th>登记状态</th></tr></thead><tbody id="pingRows"></tbody></table>
+        </div>
+      </div>
+
+      <div id="toolMask" class="tool-body hidden">
+        <div class="panel tool-panel">
+          <div class="panel-head"><h3>网段计算与查询</h3><span>算掩码区间，并回答这段在两张 IP 表里登记过没有、地址被占了多少；只填一个地址就是「查 IP」：在哪个网段、登记给了谁、资料库里谁在用</span></div>
+          <div class="tool-form">
+            <label class="tool-field"><b>网段或地址<em>一行一个，可整批粘贴。写法随意：10.1.152.0/24、10.1.152.7/255.255.255.0、2408:8000::/32；单个地址如 10.199.8.201 直接查归属</em></b>
+              <textarea id="maskInput" rows="6" placeholder="10.1.152.0/24&#10;10.0.16.0/24&#10;10.1.190.0/23"></textarea></label>
+            <div class="tool-side">
+              <label class="tool-field" id="maskSplitBox"><b>拆分成更小的段</b><select id="maskSplit"><option value="">不拆分</option></select></label>
+              <div class="tool-actions"><button id="maskRun" type="button">计算并查询</button><button id="maskClear" type="button" class="secondary">清空</button></div>
+              <small id="maskCount" class="tool-hint">单个网段给完整计算结果，多个则并排成表格对比，点行看占用明细</small>
+            </div>
+          </div>
+        </div>
+        <div id="maskError" class="tool-note bad hidden"></div>
+        <div id="maskResult" class="hidden"></div>
+      </div>
+    </section>
+    <section id="plannedPage" class="page hidden"><div class="panel planned-panel"><div class="planned-icon">◫</div><h3 id="plannedTitle"></h3><p>模块入口已经建立，当前处于建设阶段。</p><div class="planned-list"><span>数据采集接口</span><span>任务调度</span><span>历史趋势</span><span>告警与审计</span></div><small>现有资料和 IP 地址模块可以正常使用，后续将在这里接入真实设备数据。</small></div></section>
+  </main>
+</div>
+<dialog id="modal"><form method="dialog" id="modalForm"><div class="modal-head"><h3 id="modalTitle"></h3><button type="button" class="icon" id="modalClose" aria-label="关闭">×</button></div><div id="modalBody"></div><div class="modal-actions"><button type="button" class="secondary" id="modalCancel">取消</button><button type="submit" value="default" id="modalSave">保存</button></div></form></dialog>
+<input type="file" id="fileInput" accept=".xlsx" hidden><div id="toast"></div><script src="/vendor/ipaddr.js?v=2.5.0"></script>
+<script src="/tools.js?v=20260903-2"></script><script src="/views.js?v=20260903-2"></script><script src="/modules.js?v=20260903-2"></script><script src="/collab.js?v=20260903-2"></script><script src="/app.js?v=20260903-3"></script></body></html>

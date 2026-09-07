@@ -1,0 +1,31 @@
+server:
+  port: 9306
+  address: 0.0.0.0
+  servlet:
+    session:
+      cookie:
+        name: WANDA_NETOPS_SESSION
+        http-only: true
+        same-site: strict
+      timeout: 12h
+
+spring:
+  application:
+    name: wanda-netops
+  datasource:
+    url: jdbc:sqlite:./data/dev/netops.db
+    driver-class-name: org.sqlite.JDBC
+    hikari:
+      maximum-pool-size: 1
+      connection-timeout: 10000
+  web:
+    resources:
+      cache:
+        period: 0
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 60MB
+
+netops:
+  source-directory: ./source-files
